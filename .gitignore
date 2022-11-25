@@ -127,3 +127,46 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#RA2 Game
+*.exe
+*.bot
+Arenas/
+Components/
+Custom Textures/
+DirectX81/
+Gamespy/
+Music/
+Robot Designs/
+ScreenShots/
+Sounds/
+Teams/
+Texture Library/
+Tutorials/
+UI/
+*.cfz
+*.png
+*.ico
+*.url
+*.gmf
+.idea/
+*.gib
+*.dll
+*.cfg
+*.ods
+Events.txt
+Events_2Player.txt
+ReadMe.txt
+Scripts/*
+sergepatcher_log.txt
+sz_readme.txt
+*.bmp
+AI/Teams.txt
+AI/Team*
+AI/vssver.scc
+#Other AI modes should be removed, they're not relevant.
+*.py
+!JAI.py
+
+
