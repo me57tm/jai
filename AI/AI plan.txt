@@ -1,3 +1,42 @@
 > Save Robots stuck at 90deg
 > Stop AI pinning robots
 > Make AI Reset when on top of an opponent if their weapon requires them to be underneath
+> Attempt to only use srimech when on the ground to prevent firing into midair and landing with the motors extended
+> Allow Spinners to get up to speed dynamically, rather than just at the start of a match, they should be able to move while spinning up rather than just sitting there.
+> Should be bidirectional, allow for attacks with rear of robot if available.
+> Layers of strategy, when one set of weapons is broken, switch to a backup strategy
+> Stop AI spinning out in reverse, (Pathfind to a location backwards rather than just acellerate blindly)
+> Prevent "Microwaves" where the turn->accelerate behaviour of the AI causes 2 opponents to pirouette indefinately when they are in contact, but offset and roughly parallel
+
+[> AI Able to actively push opponents towards arena hazards
+	-detect if pushing an opponent, turn towards a point between the opponent and the nearest hazard (if the turn is not too great?) then push rather than turn towards enemy then push] - stock AI already does this (although seemingly not too well as I've not noticed)
+
+
+
+
+Prohibited tactic names:
+    Stock:
+        Charge
+        Shove
+        Engage
+        Reorient
+        Invert
+        Unstuck
+        [Avoidedges
+        Dethrone
+        Rein] - for koth & tabletop
+    Modded:
+        DumbCharge
+        Charge
+        Ram
+        ReverseRam
+        Shove
+        Engage
+        Reorient
+        Invert
+        Unstuck
+        MeltyBrain
+        [AvoidEdges
+        PushOffEdge
+        Dethrone
+        Rein]

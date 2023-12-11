@@ -162,11 +162,10 @@ Scripts/*
 sergepatcher_log.txt
 sz_readme.txt
 *.bmp
-AI/Teams.txt
 AI/Team*
 AI/vssver.scc
 #Other AI modes should be removed, they're not relevant.
 *.py
 !JAI.py
-
-
+!Bindings.py
+debug.txt
